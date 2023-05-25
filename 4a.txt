@@ -1,0 +1,245 @@
+#index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+            <h1> jquery website </h1>
+        </div>
+
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="index.html" class="ui-btn-active">index</a></li>
+                <li><a href="about_us.html">about</a></li>
+                <li><a href="product.html">product</a></li>
+                <li><a href="login_register.html" >login/register</a></li>
+            </ul>
+        </div>
+
+        <center> <h3>Products</h3> </center>
+
+        <div class="content">
+            <center>
+            <div class="rows">
+                <div>
+                    <img src="food.jpg" alt="food" height="250px" width="270px">
+                    <img src="food.jpg" alt="food" height="250px" width="270px">
+                    <img src="food.jpg" alt="food" height="250px" width="270px">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="rows">
+                <div>
+                    <img src="food.jpg" alt="food" height="250px" width="270px">
+                    <img src="food.jpg" alt="food" height="250px" width="270px">
+                    <img src="food.jpg" alt="food" height="250px" width="270px">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="rows">
+                <div>
+                    <img src="food.jpg" alt="food" height="250px" width="270px">
+                    <img src="food.jpg" alt="food" height="250px" width="270px">
+                    <img src="food.jpg" alt="food" height="250px" width="270px">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="rows">
+                <div>
+                    <img src="food.jpg" alt="food" height="250px" width="270px">
+                    <img src="food.jpg" alt="food" height="250px" width="270px">
+                    <img src="food.jpg" alt="food" height="250px" width="270px">
+                </div>
+            </div>
+
+            </center>
+
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <center>
+            <div class="quicklinks">
+                <h3>quick links</h3>
+                <li><a href="index.html">index</a></li> <br> <br>
+                <li><a href="about_us.html">about</a></li> <br> <br>
+                <li><a href="product.html">product</a></li> <br> <br>
+                <li><a href="login_register.html">login/register</a></li> <br> <br>
+            
+            </div>
+            <p>copyright... nothing to enter right now</p>
+            </center>
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+
+#login_register.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login/register page </title>
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+            <h1> jquery website </h1>
+        </div>
+
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="index.html">index</a></li>
+                <li><a href="about_us.html">about</a></li>
+                <li><a href="product.html">product</a></li>
+                <li><a href="login_register.html" class="ui-btn-active">login/register</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div>
+            <center><h2> register </h2></center>
+            </div>
+
+            <div data-role="content">
+
+            <label> Full Name:</label>
+            <input type="text"> <br>
+
+            <label> Address:</label>
+            <textarea cols="25" rows="7"></textarea> <br>
+
+            <label> Pin Code:</label>
+            <input type="text"> <br>
+
+            <label> DOB:</label>
+            <input type="text"> <br>
+
+            <label> Email:</label>
+            <input type="email"> <br>
+
+            <label> Password:</label>
+            <input type="password"> <br>
+
+            <label> Confirm Password:</label>
+            <input type="password"> <br>
+            
+            <input type="submit" value="register"> <br>
+
+            <center> <a href="login.html">Already Registered? Login</a> </center>
+
+            </div>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <center>
+            <div class="quicklinks">
+                <h3>quick links</h3>
+                <li><a href="index.html">index</a></li> <br> <br>
+                <li><a href="about_us.html">about</a></li> <br> <br>
+                <li><a href="product.html">product</a></li> <br> <br>
+                <li><a href="login_register.html">login/register</a></li> <br> <br>
+            
+            </div>
+            <p>copyright... nothing to enter right now</p>
+            </center>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
+
+
+#login.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page </title>
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+            <h1> jquery website </h1>
+        </div>
+
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="index.html">index</a></li>
+                <li><a href="about_us.html">about</a></li>
+                <li><a href="product.html">product</a></li>
+                <li><a href="login_register.html" class="ui-btn-active">login/register</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div>
+            <center><h2> Login </h2></center>
+            </div>
+
+            <div data-role="content">
+
+            <label> Email:</label>
+            <input type="email"> <br>
+
+            <label> Password:</label>
+            <input type="password"> <br>
+            
+            <input type="submit" value="register"> <br>
+
+            <center> <a href="login_register.html">Don't Have account? Register here</a> </center>
+
+            </div>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <center>
+            <div class="quicklinks">
+                <h3>quick links</h3>
+                <li><a href="index.html">index</a></li> <br> <br>
+                <li><a href="about_us.html">about</a></li> <br> <br>
+                <li><a href="product.html">product</a></li> <br> <br>
+                <li><a href="login_register.html">login/register</a></li> <br> <br>
+            
+            </div>
+            <p>copyright... nothing to enter right now</p>
+            </center>
+        </div>
+
+    </div>
+</body>
+</html>
